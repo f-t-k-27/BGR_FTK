@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>SKY130 DRC runset</description>
- <original-file>/foss/designs/BGR_FTK/4Demux.gds</original-file>
+ <original-file>4Demux.gds</original-file>
  <generator>drc: script='/foss/pdks/sky130A/libs.tech/klayout/macros/run_drc_full.lydrc'</generator>
  <top-cell>4Demux</top-cell>
  <tags>
@@ -1553,6 +1553,39 @@
    </references>
   </cell>
   <cell>
+   <name>NOT$1</name>
+   <variant/>
+   <layout-name>NOT$1</layout-name>
+   <references>
+    <ref>
+     <parent>4Demux</parent>
+     <trans>m0 *1 1.77,21.67</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>vias_gen$7$1</name>
+   <variant/>
+   <layout-name>vias_gen$7$1</layout-name>
+   <references>
+    <ref>
+     <parent>4Demux</parent>
+     <trans>m0 *1 2.815,21.545</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>vias_gen$12</name>
+   <variant/>
+   <layout-name>vias_gen$12</layout-name>
+   <references>
+    <ref>
+     <parent>4Demux</parent>
+     <trans>r0 *1 4.615,21.045</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
    <name>NOT</name>
    <variant/>
    <layout-name>NOT</layout-name>
@@ -1593,17 +1626,6 @@
     <ref>
      <parent>4Demux</parent>
      <trans>m0 *1 5.66,16.38</trans>
-    </ref>
-   </references>
-  </cell>
-  <cell>
-   <name>NOT$1</name>
-   <variant/>
-   <layout-name>NOT$1</layout-name>
-   <references>
-    <ref>
-     <parent>4Demux</parent>
-     <trans>m0 *1 1.77,21.67</trans>
     </ref>
    </references>
   </cell>
@@ -1664,6 +1686,54 @@
   </cell>
  </cells>
  <items>
+  <item>
+   <tags/>
+   <category>'difftap.3'</category>
+   <cell>4Demux</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (9.685,21.045;9.685,21.545)|(9.435,21.545;9.435,21.045)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'difftap.3'</category>
+   <cell>vias_gen$7$1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1.8,0;1.8,0.5)|(1.55,0.5;1.55,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'difftap.3'</category>
+   <cell>vias_gen$12</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (0,0;0,0.5)|(-0.25,0.5;-0.25,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'difftap.3'</category>
+   <cell>vias_gen$12</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.07,0;5.07,0.5)|(4.82,0.5;4.82,0)</value>
+   </values>
+  </item>
   <item>
    <tags/>
    <category>'nsdm.1'</category>
@@ -1758,6 +1828,30 @@
    <image/>
    <values>
     <value>edge-pair: (0.18,3.605;0.18,4.855)|(-0.18,4.855;-0.18,3.605)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.2'</category>
+   <cell>NAND$1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (8.17,2.3;14.325,2.3)/(14.395,2.42;8.1,2.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.2'</category>
+   <cell>NAND$1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (4.16,2.3;7.47,2.3)/(7.54,2.42;4.09,2.42)</value>
    </values>
   </item>
  </items>
