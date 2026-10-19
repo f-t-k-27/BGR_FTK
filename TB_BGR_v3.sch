@@ -149,13 +149,13 @@ N 70 -60 120 -60 {lab=#net1}
 N 70 -40 120 -40 {lab=#net2}
 N 640 -10 680 -10 {lab=out}
 N -30 300 -30 330 {lab=0}
-N -200 210 -180 210 {lab=vdd}
+N -200 210 -180 210 {lab=0}
 N -200 230 -180 230 {lab=0}
 N -390 30 -390 50 {lab=0}
 N -390 110 -390 130 {lab=0}
 N -390 -70 -390 -30 {lab=vdd}
 N 680 -10 690 -10 {lab=out}
-N -220 210 -200 210 {lab=vdd}
+N -220 210 -200 210 {lab=0}
 N -220 230 -200 230 {lab=0}
 N 690 -10 710 -10 {lab=out}
 N -30 30 -30 40 {lab=0}
@@ -176,7 +176,7 @@ N 240 110 340 110 {lab=Y3}
 N 260 140 340 140 {lab=Y2}
 N 280 170 340 170 {lab=Y1}
 N 300 200 340 200 {lab=Y0}
-N -230 210 -220 210 {lab=vdd}
+N -230 210 -220 210 {lab=0}
 N 120 -60 340 -60 {lab=#net1}
 N 120 -40 330 -40 {lab=#net2}
 N 330 -40 340 -40 {lab=#net2}
@@ -194,6 +194,7 @@ N 60 -130 240 -130 {lab=vdd}
 N -150 120 -120 120 {lab=vdd}
 N -60 120 -30 120 {lab=#net5}
 N -30 120 -30 140 {lab=#net5}
+N -220 210 -220 230 {lab=0}
 C {StartupCircuit.sym} -30 -50 0 0 {name=x1}
 C {vsource.sym} -390 0 0 0 {name=V1 value=1.8 savecurrent=false}
 C {gnd.sym} -390 130 0 0 {name=l1 lab=0}
@@ -203,7 +204,7 @@ C {iopin.sym} -150 120 0 1 {name=p3 lab=vdd}
 C {gnd.sym} -30 330 0 0 {name=l2 lab=0}
 C {gnd.sym} -30 40 0 0 {name=l3 lab=0}
 C {gnd.sym} -220 230 0 0 {name=l6 lab=0}
-C {iopin.sym} -230 210 0 1 {name=p5 lab=vdd}
+C {iopin.sym} -290 190 0 1 {name=p5 lab=vdd}
 C {sky130_fd_pr/corner.sym} -710 -260 0 0 {name=CORNER only_toplevel=false corner=tt}
 C {code_shown.sym} -750 -50 0 0 {name=s2 only_toplevel=false value="
 

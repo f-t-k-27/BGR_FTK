@@ -1,0 +1,10 @@
+* Extracted by KLayout with SKY130 LVS runset on : 14/10/2026 12:26
+
+* cell res_test
+* pin vdd
+* pin vss
+.SUBCKT res_test vdd vss
+* device instance $1 r0 *1 1.48,4.915 sky130_fd_pr__res_high_po_1p41
+XR$1 vss vdd vss sky130_fd_pr__res_high_po_1p41 R=347.017021277 L=1530000
++ W=1410000 A=2.1573e+12 P=5880000
+.ENDS res_test
