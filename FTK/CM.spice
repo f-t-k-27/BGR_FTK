@@ -1,0 +1,17 @@
+** sch_path: /foss/designs/BGR_NSL_Faruk_bhai/FTK/CM.sch
+.subckt CM inN VSS N
+*.ipin inN
+*.ipin VSS
+*.ipin N
+XM6 inN inN N VSS sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
++ mult=8 m=8
+XM8 net1 inN net2 VSS sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
++ mult=8 m=8
+XM1 inN VSS VSS VSS sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
++ mult=8 m=8
+XM2 net1 VSS VSS VSS sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
++ mult=8 m=8
+XM3 VSS VSS net2 VSS sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
++ mult=4 m=4
+.ends
+.end

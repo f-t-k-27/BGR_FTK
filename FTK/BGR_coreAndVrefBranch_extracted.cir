@@ -1,0 +1,306 @@
+* Extracted by KLayout with SKY130 LVS runset on : 20/10/2026 11:46
+
+* cell BGR_coreAndVrefBranch
+.SUBCKT BGR_coreAndVrefBranch
+* cell instance $1 r0 *1 146.51,165.11
+X$1 \$5 vias_gen$2
+* cell instance $2 r0 *1 146.51,173.85
+X$2 \$5 vias_gen$2
+* cell instance $3 r0 *1 145.58,165.26
+X$3 \$5 vias_gen
+* cell instance $4 m0 *1 144.725,167.91
+X$4 \$23 \$36 \$5 nfet
+* cell instance $5 m0 *1 164.645,167.91
+X$5 \$39 \$30 \$5 nfet
+* cell instance $6 m0 *1 169.625,167.91
+X$6 \$36 \$23 \$5 nfet
+* cell instance $7 m0 *1 149.705,167.91
+X$7 \$30 \$39 \$5 nfet
+* cell instance $8 m0 *1 156.345,167.91
+X$8 \$36 \$23 \$5 nfet
+* cell instance $9 m0 *1 158.005,167.91
+X$9 \$23 \$36 \$5 nfet
+* cell instance $10 m0 *1 162.985,167.91
+X$10 \$30 \$39 \$5 nfet
+* cell instance $11 m0 *1 151.365,167.91
+X$11 \$39 \$30 \$5 nfet
+* cell instance $12 r0 *1 164.645,171.82
+X$12 \$39 \$30 \$5 nfet
+* cell instance $13 r0 *1 169.625,171.82
+X$13 \$36 \$23 \$5 nfet
+* cell instance $14 r0 *1 156.345,171.82
+X$14 \$36 \$23 \$5 nfet
+* cell instance $15 r0 *1 158.005,171.82
+X$15 \$23 \$36 \$5 nfet
+* cell instance $16 r0 *1 149.705,171.82
+X$16 \$30 \$39 \$5 nfet
+* cell instance $17 r0 *1 144.72,171.82
+X$17 \$23 \$36 \$5 nfet
+* cell instance $18 r0 *1 162.985,171.82
+X$18 \$30 \$39 \$5 nfet
+* cell instance $19 r0 *1 151.365,171.82
+X$19 \$39 \$30 \$5 nfet
+* cell instance $20 r0 *1 150.57,165.26
+X$20 \$5 vias_gen
+* cell instance $21 r0 *1 152.22,165.26
+X$21 \$5 vias_gen
+* cell instance $22 r0 *1 157.2,165.26
+X$22 \$5 vias_gen
+* cell instance $23 r0 *1 158.86,165.26
+X$23 \$5 vias_gen
+* cell instance $24 r0 *1 163.84,165.26
+X$24 \$5 vias_gen
+* cell instance $25 r0 *1 170.465,174
+X$25 \$5 vias_gen
+* cell instance $26 r0 *1 165.49,174
+X$26 \$5 vias_gen
+* cell instance $27 r0 *1 163.84,174
+X$27 \$5 vias_gen
+* cell instance $28 r0 *1 158.86,174
+X$28 \$5 vias_gen
+* cell instance $29 r0 *1 157.2,174
+X$29 \$5 vias_gen
+* cell instance $30 r0 *1 152.22,174
+X$30 \$5 vias_gen
+* cell instance $31 r0 *1 150.57,174
+X$31 \$5 vias_gen
+* cell instance $32 r0 *1 170.465,165.26
+X$32 \$5 vias_gen
+* cell instance $33 r0 *1 165.49,165.26
+X$33 \$5 vias_gen
+* cell instance $34 r0 *1 145.58,174
+X$34 \$5 vias_gen
+* cell instance $35 m0 *1 143.83,164.69
+X$35 \$6 vias_gen$3
+* cell instance $36 r0 *1 152.29,174.99
+X$36 \$6 vias_gen$2
+* cell instance $37 r0 *1 152.29,176.24
+X$37 \$6 vias_gen$2
+* cell instance $38 r0 *1 152.29,163.92
+X$38 \$6 vias_gen$2
+* cell instance $39 m0 *1 154.59,164.69
+X$39 \$6 vias_gen$3
+* cell instance $40 m0 *1 147.91,164.69
+X$40 \$6 vias_gen$3
+* cell instance $41 m0 *1 172.04,164.69
+X$41 \$6 vias_gen$3
+* cell instance $42 m0 *1 167.86,164.69
+X$42 \$6 vias_gen$3
+* cell instance $43 m0 *1 161.24,164.69
+X$43 \$6 vias_gen$3
+* cell instance $44 r0 *1 143.83,175.01
+X$44 \$6 vias_gen$3
+* cell instance $45 r0 *1 147.91,175.01
+X$45 \$6 vias_gen$3
+* cell instance $46 r0 *1 154.59,175.01
+X$46 \$6 vias_gen$3
+* cell instance $47 r0 *1 161.24,175.01
+X$47 \$6 vias_gen$3
+* cell instance $48 r0 *1 167.86,175.01
+X$48 \$6 vias_gen$3
+* cell instance $49 r0 *1 172.04,175.01
+X$49 \$6 vias_gen$3
+* cell instance $50 m0 *1 153.025,167.91
+X$50 \$30 \$6 \$6 nfet
+* cell instance $51 m0 *1 167.965,167.91
+X$51 \$70 \$36 \$6 nfet
+* cell instance $52 m0 *1 166.305,167.91
+X$52 \$30 \$70 \$6 nfet
+* cell instance $53 m0 *1 171.285,167.91
+X$53 \$23 \$19 \$6 nfet
+* cell instance $54 m0 *1 154.685,167.91
+X$54 \$6 \$36 \$6 nfet
+* cell instance $55 m0 *1 148.045,167.91
+X$55 \$32 \$30 \$6 nfet
+* cell instance $56 m0 *1 146.385,167.91
+X$56 \$36 \$32 \$6 nfet
+* cell instance $57 m0 *1 143.065,167.91
+X$57 \$18 \$23 \$6 nfet
+* cell instance $58 m0 *1 161.325,167.91
+X$58 \$60 \$30 \$6 nfet
+* cell instance $59 m0 *1 159.665,167.91
+X$59 \$36 \$60 \$6 nfet
+* cell instance $60 r0 *1 166.305,171.82
+X$60 \$30 \$6 \$6 nfet
+* cell instance $61 r0 *1 153.025,171.82
+X$61 \$30 \$6 \$6 nfet
+* cell instance $62 r0 *1 154.685,171.82
+X$62 \$6 \$36 \$6 nfet
+* cell instance $63 r0 *1 159.665,171.82
+X$63 \$36 \$6 \$6 nfet
+* cell instance $64 r0 *1 161.325,171.82
+X$64 \$6 \$30 \$6 nfet
+* cell instance $65 r0 *1 167.965,171.82
+X$65 \$6 \$36 \$6 nfet
+* cell instance $66 r0 *1 148.045,171.82
+X$66 \$6 \$30 \$6 nfet
+* cell instance $67 r0 *1 146.385,171.82
+X$67 \$36 \$6 \$6 nfet
+* cell instance $68 r0 *1 143.065,171.82
+X$68 \$6 \$23 \$6 nfet
+* cell instance $69 r0 *1 171.285,171.82
+X$69 \$23 \$6 \$6 nfet
+* cell instance $70 r0 *1 144.73,169.975
+X$70 \$23 vias_gen
+* cell instance $71 r0 *1 158,169.975
+X$71 \$23 vias_gen
+* cell instance $72 r0 *1 171.3,169.975
+X$72 \$23 vias_gen
+* cell instance $73 r0 *1 149.71,169.175
+X$73 \$30 vias_gen
+* cell instance $74 r0 *1 166.315,169.175
+X$74 \$30 vias_gen
+* cell instance $75 r0 *1 163.005,169.175
+X$75 \$30 vias_gen
+* cell instance $76 r0 *1 153.03,169.175
+X$76 \$30 vias_gen
+* cell instance $77 r0 *1 159.67,170.775
+X$77 \$36 vias_gen
+* cell instance $78 r0 *1 146.38,170.775
+X$78 \$36 vias_gen
+* cell instance $79 r0 *1 169.63,170.775
+X$79 \$36 vias_gen
+* cell instance $80 r0 *1 156.36,170.775
+X$80 \$36 vias_gen
+* cell instance $81 r0 *1 164.645,168.38
+X$81 \$39 vias_gen
+* cell instance $82 r0 *1 151.38,168.38
+X$82 \$39 vias_gen
+* cell instance $83 r0 *1 142.31,163.27
+X$83 sky130_gnd guard_ring_gen
+* device instance $1 r0 *1 144.225,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$1 \$18 \$6 \$23 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=1.32e+12 AD=660000000000 PS=5320000 PD=2660000
+* device instance $2 r0 *1 145.885,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$2 \$23 \$5 \$36 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $3 r0 *1 147.545,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$3 \$36 \$6 \$32 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $4 r0 *1 149.205,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$4 \$32 \$6 \$30 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $5 r0 *1 150.865,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$5 \$30 \$5 \$39 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $6 r0 *1 152.525,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$6 \$39 \$5 \$30 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $7 r0 *1 154.185,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$7 \$30 \$6 \$6 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $8 r0 *1 155.845,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$8 \$6 \$6 \$36 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $9 r0 *1 157.505,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$9 \$36 \$5 \$23 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $10 r0 *1 159.165,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$10 \$23 \$5 \$36 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $11 r0 *1 160.825,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$11 \$36 \$6 \$60 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $12 r0 *1 162.485,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$12 \$60 \$6 \$30 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $13 r0 *1 164.145,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$13 \$30 \$5 \$39 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $14 r0 *1 165.805,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$14 \$39 \$5 \$30 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $15 r0 *1 167.465,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$15 \$30 \$6 \$70 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $16 r0 *1 169.125,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$16 \$70 \$6 \$36 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $17 r0 *1 170.785,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$17 \$36 \$5 \$23 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $18 r0 *1 172.445,166.91 sky130_fd_pr__nfet_01v8_lvt
+XM$18 \$23 \$6 \$19 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=1.32e+12 PS=2660000 PD=5320000
+* device instance $19 r0 *1 144.225,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$19 \$6 \$6 \$23 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=1.32e+12 AD=655000000000 PS=5320000 PD=2655000
+* device instance $20 r0 *1 145.88,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$20 \$23 \$5 \$36 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=655000000000 AD=665000000000 PS=2655000 PD=2665000
+* device instance $21 r0 *1 147.545,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$21 \$36 \$6 \$6 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=665000000000 AD=660000000000 PS=2665000 PD=2660000
+* device instance $22 r0 *1 149.205,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$22 \$6 \$6 \$30 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $23 r0 *1 150.865,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$23 \$30 \$5 \$39 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $24 r0 *1 152.525,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$24 \$39 \$5 \$30 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $25 r0 *1 154.185,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$25 \$30 \$6 \$6 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $26 r0 *1 155.845,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$26 \$6 \$6 \$36 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $27 r0 *1 157.505,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$27 \$36 \$5 \$23 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $28 r0 *1 159.165,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$28 \$23 \$5 \$36 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $29 r0 *1 160.825,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$29 \$36 \$6 \$6 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $30 r0 *1 162.485,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$30 \$6 \$6 \$30 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $31 r0 *1 164.145,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$31 \$30 \$5 \$39 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $32 r0 *1 165.805,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$32 \$39 \$5 \$30 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $33 r0 *1 167.465,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$33 \$30 \$6 \$6 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $34 r0 *1 169.125,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$34 \$6 \$6 \$36 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $35 r0 *1 170.785,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$35 \$36 \$5 \$23 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=660000000000 PS=2660000 PD=2660000
+* device instance $36 r0 *1 172.445,172.82 sky130_fd_pr__nfet_01v8_lvt
+XM$36 \$23 \$6 \$6 sky130_gnd sky130_fd_pr__nfet_01v8_lvt L=1000000 W=2000000
++ AS=660000000000 AD=1.32e+12 PS=2660000 PD=5320000
+.ENDS BGR_coreAndVrefBranch
+
+* cell vias_gen$2
+* pin 
+.SUBCKT vias_gen$2 \$1
+.ENDS vias_gen$2
+
+* cell guard_ring_gen
+* pin sky130_gnd
+.SUBCKT guard_ring_gen sky130_gnd
+.ENDS guard_ring_gen
+
+* cell vias_gen$3
+* pin 
+.SUBCKT vias_gen$3 \$1
+.ENDS vias_gen$3
+
+* cell vias_gen
+* pin 
+.SUBCKT vias_gen \$1
+.ENDS vias_gen
+
+* cell nfet
+* pin 
+* pin 
+* pin 
+.SUBCKT nfet \$1 \$2 \$3
+.ENDS nfet
